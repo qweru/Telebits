@@ -570,7 +570,7 @@ local function run(msg, matches)
 					.."Interface: "..hardware.."\n"
 					.."Total messages: "..user_info.msgs.."\n\n"
 					.."Group name: "..string.gsub(msg.to.print_name, "_", " ").."\n"
-					.."Group ID: "..msg.to.id.."\n\nTelegram.me/..(msg.from.username or "-----").."\n"
+					.."Group ID: "..msg.to.id.."\n\nTelegram.me/"..msg.from.username.."\n"
 			return info
 		else
 			get_message(msg.reply_id, callback_reply, false)
