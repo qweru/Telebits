@@ -1,4 +1,3 @@
-#Ðɪℓαη ♡ sαяα:
 local function run(msg)
 if msg.text == "دیلان" then
   return "باباییمه o^o "
