@@ -235,24 +235,22 @@ function create_config( )
     },
     sudo_users = {213520858,209005365,90285047},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[TeleMoon V.4
+    about_text = [[Telestar V.4.1
 An advanced administration bot based on TG-CLI written in Lua Open source!
 
-https://github.com/MoonTeamBot/TeleMoon
+https://github.com/qweru/Telebits/tree/supergroups
 
 
 Admins:
-@MAKAN [Developer, Founder, Manager]
+@iCrazyBoy [Developer, Founder, Manager]
 
-@UnFriendlly [Developer, Manager]
+@Makan [Developer, Founder, Manager]
 
-@Dilan [Manager]
+@@Bezar_khob_basham [ Founder , Manager]
 
 Special thanks to
-Alireza
-Amir
-Reza
-Parham
+Makan
+
 
 Our channel
 @MoonTeam
