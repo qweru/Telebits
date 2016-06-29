@@ -11,7 +11,7 @@ local function run(msg, matches)
   if is_momod(msg) then 
   return text
 else
-  return 'zert'
+  return 'کیر شدی ؟'
 end
 end
 return {
