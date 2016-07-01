@@ -7,13 +7,13 @@ local function run(msg, matches)
          if msg.from.id == tonumber(dilan) then 
             text = text..'جونم بابایی (^_^)\n\n'
           elseif is_admin2(msg.from.id) then
-            text = text..'پسرم \n\n'
+            text = text..'😐 \n\n'
            elseif is_owner2(msg.from.id, msg.to.id) then
-            text = text..'پسرم \n\n'
+            text = text..':/ \n\n'
           elseif is_momod2(msg.from.id, msg.to.id) then
-            text = text..'پسرم \n\n'
+            text = text..':] \n\n'
       else
-            text = text..'پسرم\n\n'
+            text = text..':(\n\n'
        end
        else
         text = text..'پسرم '..value..'  \n\n'
