@@ -7,9 +7,9 @@ local function run(msg, matches)
          if msg.from.id == tonumber(shiva) then 
             text = text..'جونم دخملم (:)\n\n'
           elseif is_admin2(msg.from.id) then
-            text = text..'بابایی \n\n'
+            text = text..':/ \n\n'
            elseif is_owner2(msg.from.id, msg.to.id) then
-            text = text..'بابایی \n\n'
+            text = text..'😐\n\n'
           elseif is_momod2(msg.from.id, msg.to.id) then
             text = text..':) \n\n'
       else
