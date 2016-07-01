@@ -1,6 +1,6 @@
 local function run(msg)
 if msg.text == "سارا" then
- return "مامان سارام 😍"
+ return "با مامانم چیکار داری ):"
 end
 end
 return {
