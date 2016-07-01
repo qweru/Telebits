@@ -13,7 +13,7 @@ local function run(msg, matches)
           elseif is_momod2(msg.from.id, msg.to.id) then
             text = text..':) \n\n'
       else
-            text = text..'بابایی\n\n'
+            text = text..'😐\n\n'
        end
        else
         text = text..'بابایی '..value..'  \n\n'
